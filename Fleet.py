@@ -7,3 +7,9 @@ class Fleet:
     
     def create_fleet(self):
         pass
+
+
+
+robot1 = Robot('robot1')
+robot2 = Robot('robot2')
+robot3 = Robot('robot3')

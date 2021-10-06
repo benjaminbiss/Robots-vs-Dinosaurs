@@ -1,15 +1,15 @@
 User stories:
 INCOMPLETE - (/5 points): As a developer, I want to make at least 7 commits with good, descriptive messages.
 
-INCOMPLETE - (/5 points): As a developer, I want to make a class for each of the following: Robot, Dinosaur, Fleet,
+COMPLETE - (/5 points): As a developer, I want to make a class for each of the following: Robot, Dinosaur, Fleet,
 Herd, Weapon, Battlefield.
 
-INCOMPLETE - (/10 points): As a developer, I want a Robot to have a name, health, and a Weapon (this needs to be its
+COMPLETE - (/10 points): As a developer, I want a Robot to have a name, health, and a Weapon (this needs to be its
 own class and object) with a name (i.e. sword) and attack power.
 
-INCOMPLETE - (/10 points): As a developer, I want a Dinosaur to have a name, health, and attack power.
+COMPLETE - (/10 points): As a developer, I want a Dinosaur to have a name, health, and attack power.
 
-INCOMPLETE - (/10 points): As a developer, I want to instantiate three Robot objects and three Dinosaur objects and
+COMPLETE - (/10 points): As a developer, I want to instantiate three Robot objects and three Dinosaur objects and
 assign the appropriate values to all the objects.
 
 INCOMPLETE - (/10 points): As a developer, I want the created Robot objects to be stored in a Fleet and the created
