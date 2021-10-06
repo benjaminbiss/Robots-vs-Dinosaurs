@@ -12,7 +12,7 @@ COMPLETE - (/10 points): As a developer, I want a Dinosaur to have a name, healt
 COMPLETE - (/10 points): As a developer, I want to instantiate three Robot objects and three Dinosaur objects and
 assign the appropriate values to all the objects.
 
-INCOMPLETE - (/10 points): As a developer, I want the created Robot objects to be stored in a Fleet and the created
+COMPLETE - (/10 points): As a developer, I want the created Robot objects to be stored in a Fleet and the created
 Dinosaur objects to be stored in a Herd (the Fleet and Herd must use a List to store the objects).
 
 INCOMPLETE - (/10 points): As a developer, I want a Robot to have the ability to attack a Dinosaur and a Dinosaur to
