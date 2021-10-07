@@ -41,12 +41,18 @@ class Battlefield:
             counter_dino = 0
 
     def dino_turn(self):
-        choice = self.herd.choose_dino()
+        dino_choice = self.herd.choose_dino()
+        while self.herd.dinosaurs[dino_choice - 1].health <= 0:
+            print('Choose a dinosaur with health! That one is dead!')
+            dino_choice = self.herd.choose_dino()
         index = self.show_robo_opponent_options()
-        self.herd.dinosaurs[choice - 1].attack(self.fleet.robots[index - 1])
+        self.herd.dinosaurs[dino_choice - 1].attack(self.fleet.robots[index - 1])
             
-    def robo_turn(self): ##ADD WEAPON SELECTION
+    def robo_turn(self):
         robot_choice = self.fleet.choose_robot()
+        while self.fleet.robots[robot_choice - 1].health <= 0:
+            print('Choose a robot with health! That one is dead!')
+            robot_choice = self.fleet.choose_robot()
         index = self.show_dino_opponent_options()
         self.fleet.robots[robot_choice - 1].attack(self.herd.dinosaurs[index - 1])    
 

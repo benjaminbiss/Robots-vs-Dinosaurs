@@ -11,7 +11,7 @@ class Herd:
         self.dinosaurs.append(dino3)
 
     def choose_dino(self):
-        return int(input(f'Choose your dinosaur: {self.dinosaurs[0].name}: {self.dinosaurs[0].health}, {self.dinosaurs[1].name}: {self.dinosaurs[1].health}, {self.dinosaurs[2].name}: {self.dinosaurs[2].health}'))
+        return int(input(f'Choose your dinosaur: {self.dinosaurs[0].name}: {self.dinosaurs[0].health}hp, {self.dinosaurs[0].energy}mp,  {self.dinosaurs[1].name}: {self.dinosaurs[1].health}hp, {self.dinosaurs[1].energy}mp, {self.dinosaurs[2].name}: {self.dinosaurs[2].health}hp, {self.dinosaurs[2].energy}mp,'))
 
 
 

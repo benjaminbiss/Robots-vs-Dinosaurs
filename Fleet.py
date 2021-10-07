@@ -14,7 +14,7 @@ class Fleet:
         self.robots[2].create_weapons()
 
     def choose_robot(self):
-        return int(input(f'Choose your robot: {self.robots[0].name}: {self.robots[0].health}, {self.robots[1].name}: {self.robots[1].health}, {self.robots[2].name}: {self.robots[2].health}'))
+        return int(input(f'Choose your robot: {self.robots[0].name}: {self.robots[0].health}hp, {self.robots[0].power}mp,  {self.robots[1].name}: {self.robots[1].health}hp, {self.robots[1].power}mp,  {self.robots[2].name}: {self.robots[2].health}hp, {self.robots[2].power}mp'))
 
 robot1 = Robot('robot-001')
 robot2 = Robot('robot-002')

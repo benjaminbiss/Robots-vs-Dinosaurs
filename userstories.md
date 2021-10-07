@@ -31,5 +31,5 @@ that will be then assigned as its own weapon.
 COMPLETE - (/5 points): As a developer, I want a Dinosaur to have the ability to choose its attack name from a tuple
 of different attack names before attacking a Robot in battle.
 
-INCOMPLETE - (/2 points): As a developer, I want a Robot to have a power level and a Dinosaur to have an energy,
+COMPLETE - (/2 points): As a developer, I want a Robot to have a power level and a Dinosaur to have an energy,
 which will decrease by 10 every time they attack.
