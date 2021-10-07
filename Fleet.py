@@ -9,6 +9,12 @@ class Fleet:
         self.robots.append(robot1)
         self.robots.append(robot2)
         self.robots.append(robot3)
+        self.robots[0].create_weapons()
+        self.robots[1].create_weapons()
+        self.robots[2].create_weapons()
+
+    def choose_robot(self):
+        return int(input(f'Choose your robot: {self.robots[0].name}: {self.robots[0].health}, {self.robots[1].name}: {self.robots[1].health}, {self.robots[2].name}: {self.robots[2].health}'))
 
 robot1 = Robot('robot-001')
 robot2 = Robot('robot-002')

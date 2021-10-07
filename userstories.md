@@ -15,13 +15,13 @@ assign the appropriate values to all the objects.
 COMPLETE - (/10 points): As a developer, I want the created Robot objects to be stored in a Fleet and the created
 Dinosaur objects to be stored in a Herd (the Fleet and Herd must use a List to store the objects).
 
-INCOMPLETE - (/10 points): As a developer, I want a Robot to have the ability to attack a Dinosaur and a Dinosaur to
+COMPLETE - (/10 points): As a developer, I want a Robot to have the ability to attack a Dinosaur and a Dinosaur to
 have the ability to attack a Robot on a Battlefield.
 
-INCOMPLETE - (/10 points): As a developer, I want a Robot/Dinosaur to lose health points (loss based on attack power)
+COMPLETE - (/10 points): As a developer, I want a Robot/Dinosaur to lose health points (loss based on attack power)
 when another Robot/Dinosaur successfully attacks it.
 
-INCOMPLETE - (/10 points): As a developer, I want the battle to conclude once either all the robots in the Fleet have
+COMPLETE - (/10 points): As a developer, I want the battle to conclude once either all the robots in the Fleet have
 their health points reach zero or all of the dinosaurs in the Herd have their health points reach zero.
 Bonus points:
 
