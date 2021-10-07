@@ -15,6 +15,6 @@ class Herd:
 
 
 
-dino1 = Dinosaur('Terry', 50)
-dino2 = Dinosaur('Larry', 50)
-dino3 = Dinosaur('Marry', 50)
+dino1 = Dinosaur('Terry')
+dino2 = Dinosaur('Larry')
+dino3 = Dinosaur('Marry')

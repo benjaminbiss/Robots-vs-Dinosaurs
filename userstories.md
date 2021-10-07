@@ -25,10 +25,10 @@ COMPLETE - (/10 points): As a developer, I want the battle to conclude once eith
 their health points reach zero or all of the dinosaurs in the Herd have their health points reach zero.
 Bonus points:
 
-INCOMPLETE - (/5 points): As a developer, I want a Robot to have the ability to choose from a List of different weapons
+COMPLETE - (/5 points): As a developer, I want a Robot to have the ability to choose from a List of different weapons
 that will be then assigned as its own weapon. 
 
-INCOMPLETE - (/5 points): As a developer, I want a Dinosaur to have the ability to choose its attack name from a tuple
+COMPLETE - (/5 points): As a developer, I want a Dinosaur to have the ability to choose its attack name from a tuple
 of different attack names before attacking a Robot in battle.
 
 INCOMPLETE - (/2 points): As a developer, I want a Robot to have a power level and a Dinosaur to have an energy,
