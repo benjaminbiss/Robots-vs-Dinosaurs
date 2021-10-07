@@ -1,3 +1,4 @@
+import random
 from weapon import Weapon
 
 class Robot:
@@ -6,13 +7,19 @@ class Robot:
         self.name = name
         self.health = 100
         self.weapons = []
-        self.power = 50
-        self.power_drain = [10, 20, 30]
+        self.power = 40
+        self.power_drain = [0, 20, 30]
 
     def attack(self, dinosaur):
         weapon = self.choose_weapon()
         dinosaur.health = dinosaur.health - self.weapons[weapon - 1].attack_power
         self.power = self.power - self.power_drain[weapon - 1]
+
+    def ai_attack(self, dinosaur):
+        weapon = random.randint(0, 3)
+        dinosaur.health = dinosaur.health - self.weapons[weapon - 1].attack_power
+        self.power = self.power - self.power_drain[weapon - 1]
+        print(f'{dinosaur.name} was hit for {self.weapons[weapon - 1]} damage!')
 
     def create_weapons(self):
         self.weapons.append(Sword)
